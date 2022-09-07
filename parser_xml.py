@@ -36,6 +36,5 @@ for i in tqdm(os.listdir("./xml")):
     value.append(x)
 data["file_name"] = file_name
 data["Isolation_source"] = value
-print(data.head())
 data.to_excel("output.xlsx")
     
